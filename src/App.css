@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+body{
+  background: rgb(175, 197, 241);
+}
+.nav-link{
+  font-size: 18px;
+}
+.container{
+  margin:0;
+  padding: 0;
+  max-width: 98%;
+}
+.content-card{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  border: white 1px solid;
+  box-shadow: 6px 4px 42px 0px rgba(0,0,0,0.2);
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.tab{
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  border: white 1px solid;
+  box-shadow: 6px 4px 42px 0px rgba(0,0,0,0.2);
+  padding: 20px;
+  margin-top:60px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.sidebar{
+  background: rgb(238,174,202);
+  background: linear-gradient( rgba(101,117,232,1) 0%, rgba(238,174,202,1) 100%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebar a{
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  margin-top: 50px;
+  
+}
+
